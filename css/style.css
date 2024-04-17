@@ -49,6 +49,9 @@ header.mainHeader.fixedHeader{
 .gap20{
     gap: 20px;
 }
+.navbar-brand img {
+    max-width: 170px;
+}
 nav#mainNav {
     background: transparent !important;
     padding: 5px 0;
@@ -322,6 +325,9 @@ section.banner > img {
 }
 .testimonialWrp .owl-nav button{
     outline: none !important;
+}
+.testimonialWrp .owl-nav button img, .caseStudyWrp .owl-nav button img{
+    width: 60px !important;
 }
 .testimonialBx{
     background: url(../images/testimonial-bg.png) 0 0 no-repeat;

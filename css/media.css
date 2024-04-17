@@ -114,7 +114,7 @@
         line-height: 20px;
     }
     .bannerContent .listInline{
-        margin-top: 30px;
+        margin-top: 15px;
     }
     .sectionHeading h2{
         font-size: 32px;
@@ -181,7 +181,7 @@
 }
 @media only screen and (max-width: 767px){
     section.banner > img{
-        height: 350px;
+        height: 320px;
     }
     .bannerContent h3 br{
         display: none;
