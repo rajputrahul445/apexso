@@ -470,12 +470,117 @@ section.banner > img {
     margin-top: 50px;
     text-align: center;
 }
+/*======Contact-page======*/
+.contactUs {
+    background: #253f89;
+}
 
+.contactUs h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #fff;
+}
 
+.contactTile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 
+.tileBx {
+    background: #1e326e;
+    width: calc(50% - 15px);
+    border-radius: 20px;
+    padding: 20px;
+}
 
+.tileBx p {
+    margin-top: 55px !important;
+    font-size: 24px;
+}
 
+.tileBx p a {
+    color: #dcefd894;
+}
 
+.contactBx h3 {
+    font-size: 36px;
+    color: #fff;
+    margin: 0 0 15px;
+}
 
+.contactBx {
+    padding: 20px;
+    background: #1e326e;
+    border-radius: 20px;
+}
+
+.form-control {
+    background: #273b73 !important;
+    border: none;
+    color: #fff !important;
+    border-radius: 15px;
+    font-size: 14px;
+    outline: none !important;
+    box-shadow: none !important;
+    height: auto;
+    padding: 10px 15px;
+    resize: none;
+}
+.form-control::placeholder{
+    color: #fff !important;
+}
+.multipleInput {
+    display: flex;
+    gap: 15px;
+}
+
+.multipleInput select {
+    max-width: 80px;
+}
+.fullWidth{
+    width: 100%;
+    border: none;
+}
+.bootstrap-select {
+    max-width: 90px;
+}
+.bootstrap-select button {
+    display: flex;
+    background: #273b73 !important;
+    align-items: center;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.dropdown.bootstrap-select.form-control.dropup {
+    border-radius: 10px !important;
+}
+.dropdown .filter-option-inner{
+    color: #fff;
+}
+.bootstrap-select .dropdown-menu, .bootstrap-select .dropdown-menu li a{
+    background: #1e326e;
+}
+.bootstrap-select .dropdown-menu li a{
+    color: #fff;
+}
+#contactPop .modal-dialog {
+    max-width: 1200px;
+}
+
+#contactPop .modal-header {
+    border: none;
+    color: #fff;
+    background: #253f89;
+}
+
+#contactPop .modal-header button {
+    color: #fff;
+    opacity: 1;
+    font-size: 32px;
+}
 
 

@@ -7,6 +7,16 @@
     .contactUs, .contactUs.portnerActive{
         background-size: 550px 100%;
     }
+    .caseStudyWrp .owl-nav button{
+        left: -20px;
+        opacity: 0.5;
+    }
+    .caseStudyWrp .owl-nav button.owl-next{
+        right: -20px;
+    }
+    .colorBx h3 {
+        font-size: 18px;
+    }
 }
 @media only screen and (max-width: 991px){
     body{padding-top: 60px; overflow: visible;}
@@ -176,7 +186,9 @@
     .footerLinkBx{
         width: auto;
     }
-    
+    .colorBx h3 {
+        font-size: 18px;
+    }
     
 }
 @media only screen and (max-width: 767px){
