@@ -19,7 +19,10 @@
     }
 }
 @media only screen and (max-width: 991px){
-    body{padding-top: 60px; overflow: visible;}
+    body{padding-top: 60px; overflow-x: hidden;}
+    section{
+        overflow: hidden;
+    }
     .mobile{display: block  !important;}
     .desktop{display: none;}
     .navbar-toggler i {
@@ -185,12 +188,16 @@
     }
     .footerLinkBx{
         width: auto;
+        min-width: 100px;
     }
     .colorBx h3 {
         font-size: 18px;
     }
     .tileBx p{
         font-size: 16px;
+    }
+    .footerLink{
+        gap: 20px;
     }
     
 }
