@@ -405,25 +405,24 @@ section.banner > img {
     color: #fff;
     font-weight: 400;
     line-height: 21px;
-    margin: 10px 0 30px;
 }
-.footerLogo h3{
+.footerLogo h3, .footerLink h3{
     font-size: 16px;
     color: #CFFB8F;
 }
-.footerLogo h4{
+.footerLogo h4, .footerLink h4{
     font-size: 14px;
     color: #fff;
     font-weight: 600;
 }
-.footerLogo h4 a{
+.footerLogo h4 a, .footerLink h4 a{
     color: #fff;
 }
-.footerLogo .d-flex{
+.footerLogo .d-flex, .footerLink .d-flex{
     gap: 15px;
     align-items: center;
 }
-.footerLogo .d-flex i {
+.footerLogo .d-flex i, .footerLink .d-flex i {
     font-size: 24px;
     color: #fff;
 }
@@ -432,7 +431,7 @@ section.banner > img {
     gap: 50px;
 }
 .footerLinkBx{
-    width: 160px;
+    min-width: 160px;
 }
 .footerLinkBx h3{
     font-size: 16px;
@@ -462,6 +461,9 @@ section.banner > img {
     line-height: 2.3;
     font-weight: 500;
     text-transform: uppercase;
+}
+.footerLinkBx .unorderList {
+    min-height: 130px;
 }
 .copyright{
     color: #fff;

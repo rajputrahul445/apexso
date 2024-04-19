@@ -189,6 +189,9 @@
     .colorBx h3 {
         font-size: 18px;
     }
+    .tileBx p{
+        font-size: 16px;
+    }
     
 }
 @media only screen and (max-width: 767px){
