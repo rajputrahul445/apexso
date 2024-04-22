@@ -585,4 +585,7 @@ section.banner > img {
     font-size: 32px;
 }
 
-
+.inrPage {
+    background: #253f89;
+    color: #fff;
+}
